@@ -29,7 +29,7 @@ const Header = () => {
 export default Header
 
 const Nav = styled.div`
-  background: red;
+  background: transparent;
   height: 80px;
   display: flex;
   justify-content: space-between;
