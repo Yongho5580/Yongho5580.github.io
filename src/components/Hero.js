@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { Button } from "./Button"
-import Video from "../assets/videos/travel1.mp4"
+import Video from "../assets/videos/travel2.mp4"
 
 const Hero = () => {
   return (
@@ -12,7 +12,7 @@ const Hero = () => {
       <HeroContent>
         <HeroItems>
           <HeroH1>놀랍도록 광활한</HeroH1>
-          <HeroP>대한민국 속 여행지</HeroP>
+          <HeroP>세계 속 여행지</HeroP>
           <Button primary="true" big="true" round="true" to="/trips">
             여행하기
           </Button>
