@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { Button } from "./Button"
 import { ImLocation } from "react-icons/im"
-
+//
 const Trips = ({ heading }) => {
   const data = useStaticQuery(graphql`
     query TripsQuery {
@@ -33,7 +33,6 @@ const Trips = ({ heading }) => {
       tripsArray.push(
         <ProductCard key={index}>
           <ProductImg
-            src={item.node.img.childImageSharp.fluid.src}
             alt={item.node.alt}
             fluid={item.node.img.childImageSharp.fluid}
           />
