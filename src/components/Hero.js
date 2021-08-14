@@ -11,9 +11,28 @@ const Hero = () => {
       </HeroBg>
       <HeroContent>
         <HeroItems>
-          <HeroH1>놀랍도록 광활한</HeroH1>
-          <HeroP>세계 속 여행지</HeroP>
-          <Button primary="true" big="true" round="true" to="/trips">
+          <HeroH1
+            data-sal="slide-up"
+            data-sal-delay="200"
+            data-sal-duration="2000"
+            data-sal-easing="ease"
+          >
+            놀랍도록 광활한
+          </HeroH1>
+          <HeroP
+            data-sal="slide-up"
+            data-sal-delay="400"
+            data-sal-duration="1200"
+            data-sal-easing="ease"
+          >
+            세계 속 여행지
+          </HeroP>
+          <Button
+            href="https://www.google.co.kr/maps/"
+            primary="true"
+            big="true"
+            round="true"
+          >
             여행하기
           </Button>
         </HeroItems>
@@ -69,7 +88,7 @@ const HeroItems = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: ccenter;
+  align-items: center;
   text-align: center;
   height: 100vh;
   max-height: 100%;

@@ -49,7 +49,7 @@ const Trips = ({ heading }) => {
                 top: 420px;
                 font-size: 14px;
               `}
-              to="/trips"
+              href={item.node.url}
             >
               {item.node.button}
             </Button>

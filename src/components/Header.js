@@ -12,13 +12,11 @@ const Header = () => {
       <Bars />
       <NavMenu>
         {menuData.map((item, index) => (
-          <NavLink to={item.link} key={index}>
-            {item.title}
-          </NavLink>
+          <NavLink key={index}>{item.title}</NavLink>
         ))}
       </NavMenu>
       <NavBtn>
-        <Button primary="true" round="true" to="/trips">
+        <Button primary="true" round="true">
           예약하기
         </Button>
       </NavBtn>

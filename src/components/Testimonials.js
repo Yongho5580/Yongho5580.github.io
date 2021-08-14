@@ -30,7 +30,7 @@ const Testimonials = () => {
   `)
   return (
     <TestimonialsContainer>
-      <TopLine>증명서</TopLine>
+      <TopLine>주변 친구들</TopLine>
       <Description>세계 여행을 갈 수 있다면?</Description>
       <ContentWrapper>
         <ColumnOne>
