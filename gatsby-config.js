@@ -1,9 +1,10 @@
 module.exports = {
+  pathPrefix: "/Your-Travel",
   siteMetadata: {
-    title: `Gatsby Travel Website`,
+    title: `Your Travel`,
     description: `최고의 여행지를 보여주는 여행 웹사이트`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    author: `Yongho`,
+    siteUrl: `https://Yongho5580.github.io`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
